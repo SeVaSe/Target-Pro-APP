@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/custom_border.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#621F1F" /> <!-- Цвет заливки -->
+    <stroke
+        android:width="3dp"
+        android:color="#FF0000" /> <!-- Цвет границы и ее ширина -->
+    <corners android:radius="20dp" /> <!-- Радиус закругления углов -->
+</shape>

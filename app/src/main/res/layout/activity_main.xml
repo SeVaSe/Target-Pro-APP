@@ -1,0 +1,374 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#462B2B"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<!-- activity_main.xml -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottomPanel">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="15dp">
+
+            <!-- Бокс для 1 тренировки -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_border">
+
+                <!-- Название тренировки -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Тренировка Физ-Подготовки"
+                    android:paddingLeft="20dp"
+                    android:paddingBottom="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="8dp"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <!-- Описание тренировки -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Программа для укрепления физ-подготовки спортсмена"
+                    android:paddingLeft="20dp"
+                    android:paddingBottom="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="8dp"
+                    android:textColor="@color/white"/>
+
+                <!-- Кнопка "Перейти" в правом нижнем углу -->
+                <Button
+                    android:id="@+id/gotoWorkout1Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Перейти"
+                    android:layout_gravity="end|bottom"
+                    android:layout_margin="8dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:backgroundTint="#FF0000"/>
+            </LinearLayout>
+
+            <!-- Бокс для 2 тренировки -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_border">
+
+                <!-- Название тренировки -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Техника стрельбы"
+                    android:textColor="@color/white"
+                    android:paddingLeft="20dp"
+                    android:paddingBottom="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="8dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <!-- Описание тренировки -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Программа для сосредоточения на технике стрельбы, положение тела, дыхание, стабильность"
+                    android:paddingLeft="20dp"
+                    android:paddingBottom="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="8dp"
+                    android:textColor="@color/white"/>
+
+                <!-- Кнопка "Перейти" в правом нижнем углу -->
+                <Button
+                    android:id="@+id/gotoWorkout2Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Перейти"
+                    android:layout_gravity="end|bottom"
+                    android:layout_margin="8dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:backgroundTint="#FF0000"/>
+            </LinearLayout>
+
+            <!-- Бокс для 3 тренировки -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_border">
+
+                <!-- Название тренировки -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Тренировка на точность"
+                    android:paddingLeft="20dp"
+                    android:paddingBottom="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="8dp"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <!-- Описание тренировки -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Программа на улучшение точности прицеливания"
+                    android:paddingLeft="20dp"
+                    android:paddingBottom="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="8dp"
+                    android:textColor="@color/white"/>
+
+                <!-- Кнопка "Перейти" в правом нижнем углу -->
+                <Button
+                    android:id="@+id/gotoWorkout3Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Перейти"
+                    android:layout_gravity="end|bottom"
+                    android:layout_margin="8dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:backgroundTint="#FF0000"/>
+            </LinearLayout>
+
+            <!-- Бокс для 4 тренировки -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_border">
+
+                <!-- Название тренировки -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Улучшение концентрации"
+                    android:paddingLeft="20dp"
+                    android:paddingBottom="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="8dp"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <!-- Описание тренировки -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Программа для улучшения психологической стабильности и концентрации во время стрельбы"
+                    android:paddingLeft="20dp"
+                    android:paddingBottom="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="8dp"
+                    android:textColor="@color/white"/>
+
+                <!-- Кнопка "Перейти" в правом нижнем углу -->
+                <Button
+                    android:id="@+id/gotoWorkout4Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Перейти"
+                    android:layout_gravity="end|bottom"
+                    android:layout_margin="8dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:backgroundTint="#FF0000"/>
+            </LinearLayout>
+
+            <!-- Бокс для 5 тренировки -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_border">
+
+                <!-- Название тренировки -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Тренировки на управление дыханием"
+                    android:textColor="@color/white"
+                    android:paddingLeft="20dp"
+                    android:paddingBottom="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="8dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <!-- Описание тренировки -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Программа для улучшения контроля за дыханием во время выстрелов"
+                    android:paddingLeft="20dp"
+                    android:paddingBottom="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="8dp"
+                    android:textColor="@color/white"/>
+
+                <!-- Кнопка "Перейти" в правом нижнем углу -->
+                <Button
+                    android:id="@+id/gotoWorkout5Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Перейти"
+                    android:layout_gravity="end|bottom"
+                    android:layout_margin="8dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:backgroundTint="#FF0000"/>
+            </LinearLayout>
+
+            <!-- Бокс для 6 тренировки -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_border">
+
+                <!-- Название тренировки -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Тренировка быстрой реакции"
+                    android:paddingLeft="20dp"
+                    android:paddingBottom="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="8dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <!-- Описание тренировки -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Программа для улучшения скорости реакции и адаптивности во время стрельбы"
+                    android:paddingLeft="20dp"
+                    android:paddingBottom="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="8dp"
+                    android:textColor="@color/white"/>
+
+                <!-- Кнопка "Перейти" в правом нижнем углу -->
+                <Button
+                    android:id="@+id/gotoWorkout6Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Перейти"
+                    android:layout_gravity="end|bottom"
+                    android:textColor="@color/white"
+                    android:layout_margin="8dp"
+                    android:textStyle="bold"
+                    android:backgroundTint="#FF0000"/>
+            </LinearLayout>
+
+
+            <!-- Бокс для 7 тренировки -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_border">
+
+                <!-- Название тренировки -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Тренировка на стрессоустойчивость"
+                    android:paddingLeft="20dp"
+                    android:paddingBottom="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="8dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <!-- Описание тренировки -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Программа для тренировки управления стрессом и адаптации к соревновательной обстановке"
+                    android:paddingLeft="20dp"
+                    android:paddingBottom="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="8dp"
+                    android:textColor="@color/white"/>
+
+                <!-- Кнопка "Перейти" в правом нижнем углу -->
+                <Button
+                    android:id="@+id/gotoWorkout7Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Перейти"
+                    android:layout_gravity="end|bottom"
+                    android:textColor="@color/white"
+                    android:layout_margin="8dp"
+                    android:textStyle="bold"
+                    android:backgroundTint="#FF0000"/>
+            </LinearLayout>
+
+            <!-- Пустое пространство для заполнения остатка экрана -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+    <!-- Панель управления снизу -->
+    <LinearLayout
+        android:id="@+id/bottomPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/mainMenuButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Главное меню"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="#FF0000"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/statisticsButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Статистика"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textStyle="bold"
+            android:backgroundTint="#FF0000"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+</RelativeLayout>
